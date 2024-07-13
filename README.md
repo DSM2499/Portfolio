@@ -65,6 +65,133 @@ Holding a Master's Degree in Business Analytics from San Francisco State Univers
 - **Future Work:**
     Exploring hybrid recommendation systems and real-time recommendation updates.
 
+- **Insights:**
+
+   - **Insights from Genre Clustering:**
+      - Cluster 0:
+        
+         ![Cluster 0](https://private-user-images.githubusercontent.com/49876969/348498557-4fc9c8b4-57dc-4378-bbfb-dec3c46ca373.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA4OTgxNDAsIm5iZiI6MTcyMDg5Nzg0MCwicGF0aCI6Ii80OTg3Njk2OS8zNDg0OTg1NTctNGZjOWM4YjQtNTdkYy00Mzc4LWJiZmItZGVjM2M0NmNhMzczLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzEzVDE5MTA0MFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQzMWYzZDhhMzM5YWUzYjQyMjI4ZDRkNmMxZDk0NTkwMDlhZGQ4NWE3NzIwZjI0Mjg4NjI1MWQ4YjE5MGFiYTImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.Z8EhnIERMzHIdtI2o22faCAq-oX6d5AK3uaC0Nl2ZTk)
+
+        Primary Genres: Comedy, Parody, School, Ecchi, Magic
+
+        Insights: Audience preference for light-hearted, humorous content blending school settings with fantasy elements. Inclusion of Ecchi indicates acceptance of mature themes.
+
+     - Cluster 1:
+
+       ![Cluster 1](https://private-user-images.githubusercontent.com/49876969/348498569-5a86c20e-39c1-4779-b27e-c70b874e04bc.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA4OTgzMTAsIm5iZiI6MTcyMDg5ODAxMCwicGF0aCI6Ii80OTg3Njk2OS8zNDg0OTg1NjktNWE4NmMyMGUtMzljMS00Nzc5LWIyN2UtYzcwYjg3NGUwNGJjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzEzVDE5MTMzMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWRmNzliZTI1M2VlOTAxNzA3ZGFkMDhlNzU0NTRkMjlhNWQ2NzNkODZhNmI0MWM4YzZiMTAyZWZhMWRmZjlmNmMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.OmS0MBw28NSH78EdGXmQ_EG4Yt8ZA-o1gAArWfTUCOk)
+
+       Primary Genres: Fantasy, Adventure, Action, Comedy, Magic
+
+       Insights: Strong attraction to imaginative, high-energy content featuring magical and action elements within fantasy settings.
+
+     - Cluster 2:
+
+       ![Cluster 2](https://private-user-images.githubusercontent.com/49876969/348498587-09af803c-5510-4305-a817-ee383a9be695.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA4OTg0MTAsIm5iZiI6MTcyMDg5ODExMCwicGF0aCI6Ii80OTg3Njk2OS8zNDg0OTg1ODctMDlhZjgwM2MtNTUxMC00MzA1LWE4MTctZWUzODNhOWJlNjk1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzEzVDE5MTUxMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWM2Zjg1OWJhMDBkMGVkYmFjODcwNjE4ODRkNjk5NzIyZTM2NzEyNWQ0YmIyMDg5YmU1NTRjZDgxMmQ2MzI3M2MmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.7QeHcr6PqU6U7sG4Rx9ykQPXjqo88E7qHZgbax4l2RA)
+
+       Primary Genres: Romance, Comedy, School, Drama, Ecchi
+
+       Insights: Clear preference for romantic narratives in school settings, with an appetite for emotional depth and some mature content.
+
+     - Cluster 3:
+
+       ![Cluster 3](https://private-user-images.githubusercontent.com/49876969/348498597-e1730133-3caf-4946-ab03-06ce5fa8cd7c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA4OTg1MDIsIm5iZiI6MTcyMDg5ODIwMiwicGF0aCI6Ii80OTg3Njk2OS8zNDg0OTg1OTctZTE3MzAxMzMtM2NhZi00OTQ2LWFiMDMtMDZjZTVmYThjZDdjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzEzVDE5MTY0MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTVkYmY2NzZjZGJmZjY5NzZhMjY4ODMwYmM4MjYzNmNjNDNlYWU2ZGY2NThiNmViZjFhNDdlYjc0N2QzN2ZjZDkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.nRhoLDwXccvdqd7mpjWEBY8GR3JzU6PgjAIvpwWL48I)
+
+       Primary Genres: Sports, Shounen, Comedy, Drama, Action
+
+       Insights: Dominance of sports-themed and youth-targeted content, appealing to viewers who enjoy competitive storylines with emotional and humorous elements.
+
+     - Cluster 4:
+
+       ![Cluster 4](https://private-user-images.githubusercontent.com/49876969/348498613-9d407ed2-9f12-4c6a-8cb8-c7f9b25c4f2b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA4OTg1ODcsIm5iZiI6MTcyMDg5ODI4NywicGF0aCI6Ii80OTg3Njk2OS8zNDg0OTg2MTMtOWQ0MDdlZDItOWYxMi00YzZhLThjYjgtYzdmOWIyNWM0ZjJiLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzEzVDE5MTgwN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWYwZmIyNjdkZTQ1ZmUyZWFkZmM5ZjEwZmU4MTMwNGYwMWE1OTIwODJhMDAyZmIyNDc5OTgxMTcxYzc1YWNhN2MmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.nRJ9iFHBRkBYMTc-FnA45JpF1_5eKiVUmqy560Rh8G0)
+
+       Primary Genres: Action, Supernatural, Comedy, Mystery, Shounen
+
+       Insights: Audience drawn to action-packed supernatural themes, with a taste for complex plots and youth-centric narratives.
+
+     - Cluster 5:
+
+       ![Cluster 5](https://private-user-images.githubusercontent.com/49876969/348498651-962b6fad-a887-4f0a-9e9e-d8b1035a2fb6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA4OTg2NzIsIm5iZiI6MTcyMDg5ODM3MiwicGF0aCI6Ii80OTg3Njk2OS8zNDg0OTg2NTEtOTYyYjZmYWQtYTg4Ny00ZjBhLTllOWUtZDhiMTAzNWEyZmI2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzEzVDE5MTkzMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTUzMmM1NGE5NjkxZGQ4YmZhYTVjMjIzMWMxNzU3NTNmYjAxYzkyMWRhMzEyNGVkM2ZiZTFiYWNlMjlhYjY2OGImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.mynbWGcVAa2-wcAX3dJYZpHhQXzfZjZFIDdD3bXMWIA)
+
+       Primary Genres: Music, Comedy, Slice of Life, School, Drama
+
+       Insights: Niche combining music themes with realistic, everyday stories, appealing to viewers seeking relatable content with emotional depth.
+
+     - Cluster 6:
+
+       ![Cluster 6](https://private-user-images.githubusercontent.com/49876969/348498673-57d1d677-4eeb-4d31-89f9-38bca94670b7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA4OTg3MzksIm5iZiI6MTcyMDg5ODQzOSwicGF0aCI6Ii80OTg3Njk2OS8zNDg0OTg2NzMtNTdkMWQ2NzctNGVlYi00ZDMxLTg5ZjktMzhiY2E5NDY3MGI3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzEzVDE5MjAzOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQyYzlkOWZmOGZmNjE2ZTEzYjAxYWQ5MTUzYTU5MmEzYjU2ZWFjM2Q1NDU0NDg4YjY4MDI3NzkzMzJmM2I3N2ImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.vWtQ1JTNwxq7n5nArmm-ethcMmHIFDS4SKlnvJQl41o)
+
+       Primary Genres: Kids, Comedy, Fantasy, Adventure, Action
+
+       Insights: Strong market for all-ages content, blending imaginative adventures with light-hearted comedy.
+
+     - Cluster 7:
+
+       ![Cluster 7](https://private-user-images.githubusercontent.com/49876969/348498683-c58411f3-a791-48c5-9845-db727800c3dc.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA4OTg4NjAsIm5iZiI6MTcyMDg5ODU2MCwicGF0aCI6Ii80OTg3Njk2OS8zNDg0OTg2ODMtYzU4NDExZjMtYTc5MS00OGM1LTk4NDUtZGI3Mjc4MDBjM2RjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzEzVDE5MjI0MFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWVjMDU4ZWFmZjMxM2YyMzBhYjVmY2ZjYzNiYTUxOTcyOThiMjMxNDk1NzFmYzJjNTZjOGU2OTc4OWY2ZmMxYTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.jQBs9GlSb6mw_Yy26VEX8ZyFEY_8db-gh9VUFnc_Xok)
+
+       Primary Genres: Hentai, School, Supernatural, Demons, Fantasy
+
+       Insights: Distinct adult-oriented cluster with a focus on darker, fantasy-based narratives and supernatural themes.
+
+     - Cluster 8:
+    
+        ![Cluster 8](https://private-user-images.githubusercontent.com/49876969/348498731-e737d870-bc4e-4e55-804d-e3bdda4ed929.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA4OTkwMDUsIm5iZiI6MTcyMDg5ODcwNSwicGF0aCI6Ii80OTg3Njk2OS8zNDg0OTg3MzEtZTczN2Q4NzAtYmM0ZS00ZTU1LTgwNGQtZTNiZGRhNGVkOTI5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzEzVDE5MjUwNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ1NzRkYjNiZTQxZTM5NjRmMTI3ODA2OGJmZWE1MmZhMDYyZmViY2FiNjE2NDc4NmU5Y2JhMGUwMmFmMDI2NDcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.tfmfqZS0YNNjp8Q5sqd8WTXoCI9h3vVVine0gI8UVwY)
+
+       Primary Genres: Sci-Fi, Action, Mecha, Adventure, Comedy
+
+       Insights: Clear audience for futuristic, high-energy content, particularly featuring advanced technology and robotic themes.
+
+     - Cluster 9:
+
+       ![Cluster 9](https://private-user-images.githubusercontent.com/49876969/348498744-ade3487a-a5ad-447e-850b-a13160f40296.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA4OTkwNzUsIm5iZiI6MTcyMDg5ODc3NSwicGF0aCI6Ii80OTg3Njk2OS8zNDg0OTg3NDQtYWRlMzQ4N2EtYTVhZC00NDdlLTg1MGItYTEzMTYwZjQwMjk2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzEzVDE5MjYxNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ1YjJlMjBlNTAwNmZiMzUzOTA2MWY2NmI0YjljNTkxZjRmOTEyNDc4M2I5NjcwYTRjMGNiMmU0NzRkMDI2MWMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.v9tufABKKyDXps6ru6NTOi3oP39xleVoG9iwvpSdRT0)
+
+       Primary Genres: Slice of Life, Comedy, School, Drama, Romance
+
+       Insights: Strong preference for grounded, emotionally engaging stories focusing on everyday life and relationships.
+
+
+  This cluster analysis provides a nuanced understanding of anime genre preferences, revealing distinct audience segments. These insights can      inform content creation strategies, marketing approaches, and programming decisions in the anime industry.
+
+  - **Anime Duration**
+ 
+    My analysis of anime episode durations reveals key trends in content structure and viewer preferences. These insights offer valuable 
+    guidance for content creators, distributors, and streaming platforms in the anime industry.
+
+    ![anime duration](https://private-user-images.githubusercontent.com/49876969/348499842-211daf36-ad5f-44ae-9a8b-e03f2f1e131d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA4OTk0ODAsIm5iZiI6MTcyMDg5OTE4MCwicGF0aCI6Ii80OTg3Njk2OS8zNDg0OTk4NDItMjExZGFmMzYtYWQ1Zi00NGFlLTlhOGItZTAzZjJmMWUxMzFkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzEzVDE5MzMwMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTYwNWU4ZDAyMTIzN2Y4Y2NjOTFkZGU1OTNjMjg0YjdiNjc5Zjg3ODlmMDQxZGE1NmFhOWFiYWU1YTc3YTEyN2ImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.YNb_mB7nhu2cNlScRZ4cko6Ez2bt7JfrZl0fFU-8j0E)
+
+    - Actionable Insights:
+       - Maintain focus on standard 24-26 minute episodes to meet primary market demand.
+       - Explore opportunities in short-form content (under 10 minutes) to capture quick-viewing audience segments.
+       - Utilize shorter episodes in marketing campaigns to attract new viewers with lower time commitment barriers.
+       - Create viewing pathways that gradually introduce users to longer-form content, fostering deeper engagement.
+
+    Understanding the distribution of anime episode durations provides crucial insights for strategic decision-making in content creation, 
+    platform design, and marketing within the anime industry. By leveraging these findings, stakeholders can enhance user engagement, streamline 
+    content production, and develop more effective marketing strategies, ultimately driving growth and viewer satisfaction in the competitive 
+    anime market.
+
+  - **Audience Demographic Analysis:**
+
+     ![user gender](https://private-user-images.githubusercontent.com/49876969/348500307-39fcbe96-c548-4ec0-adb6-b129cb6e59b2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA5MDAyNzcsIm5iZiI6MTcyMDg5OTk3NywicGF0aCI6Ii80OTg3Njk2OS8zNDg1MDAzMDctMzlmY2JlOTYtYzU0OC00ZWMwLWFkYjYtYjEyOWNiNmU1OWIyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzEzVDE5NDYxN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRhM2U3ZjE0NDU4OTFkM2NiODQzNjM4NDllMTU5MzE4ZmM3ZGE1M2I5MDQ4MGU3YWY2ZjQzNDZmOTIyMDVjNGUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.pKcIYE8jfbbZ2mPtBEgyGReDL2BJfLy2QhRsOvKlQCQ)
+
+    ![user age](https://private-user-images.githubusercontent.com/49876969/348500310-349aa71d-c242-474e-919d-b2007bf0b5ba.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA5MDAyNzcsIm5iZiI6MTcyMDg5OTk3NywicGF0aCI6Ii80OTg3Njk2OS8zNDg1MDAzMTAtMzQ5YWE3MWQtYzI0Mi00NzRlLTkxOWQtYjIwMDdiZjBiNWJhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzEzVDE5NDYxN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWIwYjk1NWUwMTBhNWUxODVjMTM4MTgzNWU0OTMyODJjNzJjOWM4MGIwYWRmODFjYjdkMDg0ZjRiOWU2YjNiOGEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.DyHA63-crtZ5GLh7YCfSmd5G_-WMMdNPJPMfXCTwriE)
+
+    ![user region](https://private-user-images.githubusercontent.com/49876969/348500314-e9198481-e5b0-43c9-afdf-4292437d0ddf.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA5MDAyNzcsIm5iZiI6MTcyMDg5OTk3NywicGF0aCI6Ii80OTg3Njk2OS8zNDg1MDAzMTQtZTkxOTg0ODEtZTViMC00M2M5LWFmZGYtNDI5MjQzN2QwZGRmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzEzVDE5NDYxN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTYzOTZiNTAyM2YwZTg1ZjA3MGQ5MDJkODY2NzU4Mjg1NTgyMTMwZTdiMzFhODcwODNjMDJhNTI5NGYwZWIwMzAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.fTXo0U35AGNK-3mQY24IdUKYhgeL2bKjIZgNfuUoc0A)
+
+    <p>Our analysis of the anime community reveals a predominantly male audience with significant female representation and a small non-binary user base. The largest demographic consists of users in their early thirties, followed by young adults, with a global reach that includes notable concentrations in Poland, Germany, Brazil, Canada, and several European countries. This diverse audience composition provides valuable guidance for content creation, marketing, and platform development in the anime industry.</p>
+
+    <p>To effectively engage this audience, content strategies should focus on developing gender-inclusive anime that appeals to both male and female viewers while also incorporating themes that resonate with non-binary individuals. Marketing campaigns can be localized to target countries with high user concentrations, with messaging tailored to the predominant age groups. Platform developers should prioritize age-appropriate content recommendations, offer customization options for different gender identities, and implement region-specific features. By leveraging these demographic insights, stakeholders in the anime industry can create more inclusive and engaging experiences, potentially expanding their user base and deepening audience engagement across various demographic segments.</p>
+
+  - **User Engagement Analysis:**
+
+     ![user engagement 1](https://private-user-images.githubusercontent.com/49876969/348500634-48667f5f-4113-49df-b6ba-53605f6b5c16.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA5MDA4MTEsIm5iZiI6MTcyMDkwMDUxMSwicGF0aCI6Ii80OTg3Njk2OS8zNDg1MDA2MzQtNDg2NjdmNWYtNDExMy00OWRmLWI2YmEtNTM2MDVmNmI1YzE2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzEzVDE5NTUxMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWNlYzVkNmM3NzEwMmM0Y2JmN2MyYWU5ZDQzYzg3M2JkZWM0ZjcwN2UwNTZmOTA1YWMzZTFlNGMyZDM3Yzg5YjYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.la4BNgsSNMEYR6Di1a3cRh6xy6JV57Y5zP6NgxHdHE4)
+
+    ![user engagement 2](https://private-user-images.githubusercontent.com/49876969/348500640-9ad68602-fcb8-4e1c-99c9-db49a4375d42.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA5MDA4MTIsIm5iZiI6MTcyMDkwMDUxMiwicGF0aCI6Ii80OTg3Njk2OS8zNDg1MDA2NDAtOWFkNjg2MDItZmNiOC00ZTFjLTk5YzktZGI0OWE0Mzc1ZDQyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzEzVDE5NTUxMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTIwMzY0MGJlYzIxNTM2Mzg0OTFlN2QwODljMzQ0NDRjNTQwYWNmZmNiNTM0NmU5MjQyZmQ2Nzk5Y2FlOWUyNjMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.szFIIWGk439IsM3hpPTTv7N3S_RWPykDFOaLckSrYyA)
+
+    <p>Anime audience engagement analysis reveals significant trends across gender and age demographics, providing actionable insights for content strategy, marketing, and user experience optimization. Users across all genders demonstrate high completion rates and substantial interest in planning future anime viewing, indicating strong content satisfaction and potential for sustained engagement. Age-wise, engagement peaks in the early 20s and mid-40s, with steady interest across the 25-35 age range, suggesting targeted demographics for focused marketing efforts. However, a notable decline in engagement beyond age 50 presents an opportunity for tailored content and outreach strategies to retain older viewers.</p>
+
+    <p>To capitalize on these insights, content creators should focus on genres with high completion rates and promote upcoming releases to leverage the high 'plan to watch' counts. Marketing campaigns should be tailored to highly engaged age groups and gender preferences, with special attention to developing strategies that appeal to users over 50. Enhancing user experience through personalized recommendations based on completion and planning patterns can further boost engagement. Additionally, addressing the higher drop rates among Non-Binary users through content refinement and implementing community-building features like forums or watch parties can foster deeper user involvement. By integrating these strategies, stakeholders in the anime industry can optimize user engagement, retention, and overall satisfaction across diverse demographic segments.</p>
+
+
 ### Sentiment Analysis
 
 - **Motivation:**
