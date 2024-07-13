@@ -225,6 +225,7 @@ Holding a Master's Degree in Business Analytics from San Francisco State Univers
 
   ![Model Results](https://private-user-images.githubusercontent.com/49876969/348441027-26ee09d7-9d07-412b-8ed4-0d00051cbc73.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA4OTY0MzEsIm5iZiI6MTcyMDg5NjEzMSwicGF0aCI6Ii80OTg3Njk2OS8zNDg0NDEwMjctMjZlZTA5ZDctOWQwNy00MTJiLThlZDQtMGQwMDA1MWNiYzczLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzEzVDE4NDIxMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWEwYjQ4NTRhNDc3NDcxZjViYmU3NDZlOTM4ZDdlMTk4YTFiMDJmYTM2ZDk4NjM4Y2M0MGM5ZTBmMjBjZjcxOGImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.iIyhEfecljeOvpLS3BL4W_yJEsZIX-fNhnGGM0ywgn4)
 
+
 To further enhance the model's performance, two primary avenues for improvement are identified:
 - **Hyperparameter Tuning:** Fine-tuning the model's hyperparameters could potentially mitigate overfitting and improve overall accuracy. This may involve adjusting learning rates, batch sizes, or the architecture of the neural network.
 - **Data Quality Enhancement:** Improving the quality and quantity of the training data could lead to better model performance. This might include gathering more diverse examples, implementing advanced data augmentation techniques, or refining the data cleaning process.
@@ -272,14 +273,38 @@ These observations provide valuable insights for future iterations of the model,
 
   ![Model Results](https://private-user-images.githubusercontent.com/49876969/348443921-5e673e4c-d2aa-4998-8558-30b233e56f6e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA4OTY0ODIsIm5iZiI6MTcyMDg5NjE4MiwicGF0aCI6Ii80OTg3Njk2OS8zNDg0NDM5MjEtNWU2NzNlNGMtZDJhYS00OTk4LTg1NTgtMzBiMjMzZTU2ZjZlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzEzVDE4NDMwMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWNkMzIyZjEyMTk1NTk2ZGFiMTlhOTBmNGFkM2NlZTc3NThiY2Y2ODkwMDg0NjNmMDA0NDNhZmI4YTAyMDkwYjImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.PwP6a_bz7dngUFbY4tTnCIzrYxinsnOwbc05LSyYYWc)
 
+- **Inferences:**
+  
+  - **Model Performance:**
+    - The R-squared value of 0.42 indicates that the model explains about 42% of the variance in the sound levels. While this is a moderate level of explanatory power, it suggests that there are other factors influencing the sound levels that are not captured by the model.
+    - The Mean Squared Error (MSE) and Mean Absolute Error (MAE) values indicate the average magnitude of the errors in the model's predictions. The MAE of 3.88 suggests that on average, the model's predictions are off by about 3.88 decibels.
+
+  - **Impact of Features:**
+    - **Frequency**: The negative coefficient (-0.00136) suggests that higher frequencies are associated with slightly lower sound levels. This effect is small but consistent.
+    - **Angle of Attack**: The negative coefficient (-0.349) indicates that an increase in the angle of attack reduces the sound levels. This suggests that modifying the angle of attack could be a practical way to manage noise levels.
+    - **Chord Length**: The significant negative coefficient (-34.41) shows that larger chord lengths are strongly associated with lower sound levels. This suggests that increasing the chord length can significantly reduce noise.
+    - **Free Stream Velocity**: The positive coefficient (0.104) indicates that higher free stream velocities are associated with higher sound levels, though the effect is relatively small.
+    - **Suction Side Displacement**: The large negative coefficient (-171.16) indicates that increasing the suction side displacement thickness can lead to a significant reduction in noise levels.
+
+  - **Practical Insights:**
+    - **Design Adjustments:**
+      - **Chord Length**: Given the strong negative impact of chord length on sound levels, designers of airfoils can consider increasing the chord length to reduce noise. This could be particularly useful in applications where noise reduction is critical, such as in commercial aviation or urban drone delivery systems.
+      - **Suction Side Displacement**: The significant impact of suction side displacement thickness suggests that adjustments in the airfoil design to increase this thickness can effectively reduce noise levels. This could involve modifications in the surface geometry or the use of materials that enhance this displacement.
+  - **Operational Strategies:**
+      - **Angle of Attack**: Pilots and operators can adjust the angle of attack during flight operations to manage noise levels. For instance, during takeoff and landing, where noise is a significant concern, adjusting the angle of attack to optimal levels can help minimize noise pollution.
+      - **Velocity Management**: Controlling the free stream velocity can be another strategy to manage noise, especially in environments where reducing noise is essential. This might involve optimizing flight paths and speeds to balance performance and noise levels.
+  - **Further Research:**
+      - The moderate R-squared value suggests that further research is needed to identify additional factors influencing sound levels. This could involve exploring other aerodynamic parameters, material properties, or environmental conditions.
+      - Advanced modeling techniques, such as non-linear models or machine learning approaches, could be employed to capture more complex relationships and improve the predictive power of the model.
+
 - **Future Work:**
 
-Future work on this project presents several promising avenues for enhancement and expansion:
-- **Model Sophistication:** Incorporating more advanced machine learning techniques such as random forests, gradient boosting machines, or deep learning architectures could potentially yield improved prediction accuracy. These methods may capture complex relationships in the data that linear regression might miss.
-- **Data Enrichment:** Expanding the dataset with more diverse and comprehensive airfoil data could enhance the model's ability to generalize across various designs and operating conditions. This could involve collecting data from a wider range of airfoil types and environmental scenarios.
-- **Real-time Analytics:** Implementing a real-time data pipeline using Apache Kafka for streaming data and Spark Streaming for real-time analytics could enable continuous monitoring and prediction of noise levels. This would allow for more dynamic and responsive noise management strategies.
-- **Advanced Feature Engineering:** Conducting a more in-depth feature engineering process could uncover additional relevant attributes from the raw data. This might involve deriving new features based on domain knowledge or using automated feature extraction techniques, potentially leading to improved model performance and new insights.
-- **User Interface Development:** Integrating the predictive model into a web-based application with an intuitive interface would significantly enhance its accessibility and utility. This would allow engineers and researchers to easily interact with the model, facilitating its incorporation into their design and optimization processes.
+  Future work on this project presents several promising avenues for enhancement and expansion:
+  - **Model Sophistication:** Incorporating more advanced machine learning techniques such as random forests, gradient boosting machines, or deep learning architectures could potentially yield improved prediction accuracy. These methods may capture complex relationships in the data that linear regression might miss.
+  - **Data Enrichment:** Expanding the dataset with more diverse and comprehensive airfoil data could enhance the model's ability to generalize across various designs and operating conditions. This could involve collecting data from a wider range of airfoil types and environmental scenarios.
+  - **Real-time Analytics:** Implementing a real-time data pipeline using Apache Kafka for streaming data and Spark Streaming for real-time analytics could enable continuous monitoring and prediction of noise levels. This would allow for more dynamic and responsive noise management strategies.
+  - **Advanced Feature Engineering:** Conducting a more in-depth feature engineering process could uncover additional relevant attributes from the raw data. This might involve deriving new features based on domain knowledge or using automated feature extraction techniques, potentially leading to improved model performance and new insights.
+  - **User Interface Development:** Integrating the predictive model into a web-based application with an intuitive interface would significantly enhance its accessibility and utility. This would allow engineers and researchers to easily interact with the model, facilitating its incorporation into their design and optimization processes.
 
 By pursuing these enhancements, the project could evolve into a more comprehensive and powerful tool for airfoil noise prediction and management. These advancements would not only improve the model's accuracy and applicability but also increase its value in real-world aerospace engineering scenarios.
 
