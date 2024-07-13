@@ -183,9 +183,9 @@ Holding a Master's Degree in Business Analytics from San Francisco State Univers
 
   - **User Engagement Analysis:**
 
-     ![user engagement 1](https://private-user-images.githubusercontent.com/49876969/348500634-48667f5f-4113-49df-b6ba-53605f6b5c16.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA5MDA4MTEsIm5iZiI6MTcyMDkwMDUxMSwicGF0aCI6Ii80OTg3Njk2OS8zNDg1MDA2MzQtNDg2NjdmNWYtNDExMy00OWRmLWI2YmEtNTM2MDVmNmI1YzE2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzEzVDE5NTUxMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWNlYzVkNmM3NzEwMmM0Y2JmN2MyYWU5ZDQzYzg3M2JkZWM0ZjcwN2UwNTZmOTA1YWMzZTFlNGMyZDM3Yzg5YjYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.la4BNgsSNMEYR6Di1a3cRh6xy6JV57Y5zP6NgxHdHE4)
+     ![user engagement 1](https://github.com/DSM2499/Portfolio/blob/main/Photos/user%20engagement%20gender.png?raw=true)
 
-    ![user engagement 2](https://private-user-images.githubusercontent.com/49876969/348500640-9ad68602-fcb8-4e1c-99c9-db49a4375d42.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA5MDA4MTIsIm5iZiI6MTcyMDkwMDUxMiwicGF0aCI6Ii80OTg3Njk2OS8zNDg1MDA2NDAtOWFkNjg2MDItZmNiOC00ZTFjLTk5YzktZGI0OWE0Mzc1ZDQyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzEzVDE5NTUxMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTIwMzY0MGJlYzIxNTM2Mzg0OTFlN2QwODljMzQ0NDRjNTQwYWNmZmNiNTM0NmU5MjQyZmQ2Nzk5Y2FlOWUyNjMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.szFIIWGk439IsM3hpPTTv7N3S_RWPykDFOaLckSrYyA)
+    ![user engagement 2](https://github.com/DSM2499/Portfolio/blob/main/Photos/user%20engagement%20age.png?raw=true)
 
     <p>Anime audience engagement analysis reveals significant trends across gender and age demographics, providing actionable insights for content strategy, marketing, and user experience optimization. Users across all genders demonstrate high completion rates and substantial interest in planning future anime viewing, indicating strong content satisfaction and potential for sustained engagement. Age-wise, engagement peaks in the early 20s and mid-40s, with steady interest across the 25-35 age range, suggesting targeted demographics for focused marketing efforts. However, a notable decline in engagement beyond age 50 presents an opportunity for tailored content and outreach strategies to retain older viewers.</p>
 
@@ -213,9 +213,9 @@ Holding a Master's Degree in Business Analytics from San Francisco State Univers
     
 - **Dataset Description:**
 
-  ![Dataset Description 1](https://private-user-images.githubusercontent.com/49876969/348441714-c06175e5-a6a4-4273-b3a6-d595e1f532fd.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA4OTYzODUsIm5iZiI6MTcyMDg5NjA4NSwicGF0aCI6Ii80OTg3Njk2OS8zNDg0NDE3MTQtYzA2MTc1ZTUtYTZhNC00MjczLWIzYTYtZDU5NWUxZjUzMmZkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzEzVDE4NDEyNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWU1OWI4M2Y3MjUyYzRjOGUwMTdkMzRjZDRlYTY1YWQ0NTg4NGIzNTM4ZjIwYjFhYTAyOTI0MzViN2FjMmRmOWQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.J2nz0YPQS2XiAjnm-oRDPk75n0iNYXa5LnHMOp1BlRI)
+  ![Dataset Description 1](https://github.com/DSM2499/Portfolio/blob/main/Photos/sentiment%20data.png?raw=true)
   
-  ![Dataset Description 2](https://private-user-images.githubusercontent.com/49876969/348440879-6ece24a9-37cb-4a3b-869f-15270496d705.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA4OTY0MDksIm5iZiI6MTcyMDg5NjEwOSwicGF0aCI6Ii80OTg3Njk2OS8zNDg0NDA4NzktNmVjZTI0YTktMzdjYi00YTNiLTg2OWYtMTUyNzA0OTZkNzA1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzEzVDE4NDE0OVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ1MTMzZmNiMmU0NDM1YmRhOGVlODdlNmEzZWEyNjBlNGEzODI2NzA5NTRiNjRjNzIwNzJlNTg1YmVjNDk3ZWUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.0BtoL-Dn8fSDN5QMB1dhFVPsXZKEXZglPNnaxdsIw7Y)
+  ![Dataset Description 2](https://github.com/DSM2499/Portfolio/blob/main/Photos/Sentiment%20data%20distribution.png?raw=true)
 
 - **Code Repository:**
     [Sentiment Analysis](https://github.com/DSM2499/sentiment_analysis)
@@ -223,7 +223,7 @@ Holding a Master's Degree in Business Analytics from San Francisco State Univers
 - **Results:**
     The model demonstrates robust performance on unseen clean data, achieving an accuracy of 74.15%. This result is promising, indicating the model's ability to generalize to new instances. However, the training accuracy plateauing at approximately 75% suggests potential overfitting, as the gap between training and test accuracy is relatively small.
 
-  ![Model Results](https://private-user-images.githubusercontent.com/49876969/348441027-26ee09d7-9d07-412b-8ed4-0d00051cbc73.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA4OTY0MzEsIm5iZiI6MTcyMDg5NjEzMSwicGF0aCI6Ii80OTg3Njk2OS8zNDg0NDEwMjctMjZlZTA5ZDctOWQwNy00MTJiLThlZDQtMGQwMDA1MWNiYzczLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzEzVDE4NDIxMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWEwYjQ4NTRhNDc3NDcxZjViYmU3NDZlOTM4ZDdlMTk4YTFiMDJmYTM2ZDk4NjM4Y2M0MGM5ZTBmMjBjZjcxOGImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.iIyhEfecljeOvpLS3BL4W_yJEsZIX-fNhnGGM0ywgn4)
+  ![Model Results](https://github.com/DSM2499/Portfolio/blob/main/Photos/Seniment%20-%20accuracy%20over%20epochs.png?raw=true)
 
 
 To further enhance the model's performance, two primary avenues for improvement are identified:
@@ -245,9 +245,9 @@ These observations provide valuable insights for future iterations of the model,
     
     By bridging the gap between big data analytics and aerospace engineering, this project aims to drive innovation in airfoil design, potentially leading to quieter, more efficient aircraft and improved quality of life in areas affected by aviation noise.
 
-  ![Airfoil Sound Prediction 1](https://camo.githubusercontent.com/b43aaf71ea89eab01f6921bccdb8a5f93fc8f1589753676299752de36a856a0a/68747470733a2f2f63662d636f75727365732d646174612e73332e75732e636c6f75642d6f626a6563742d73746f726167652e617070646f6d61696e2e636c6f75642f49424d536b696c6c734e6574776f726b2d424430323331454e2d436f7572736572612f696d616765732f416972666f696c5f616e676c655f6f665f61747461636b2e6a7067)
+  ![Airfoil Sound Prediction 1](https://github.com/DSM2499/Portfolio/blob/main/Photos/airfoil%20images.png?raw=true)
 
-  ![Airfoil Sound Prediction 2](https://camo.githubusercontent.com/157ef2b6c697b82c0b747a554167df1297119d43e84fc288f87afb6973d2a181/68747470733a2f2f63662d636f75727365732d646174612e73332e75732e636c6f75642d6f626a6563742d73746f726167652e617070646f6d61696e2e636c6f75642f49424d536b696c6c734e6574776f726b2d424430323331454e2d436f7572736572612f696d616765732f416972666f696c5f776974685f666c6f772e706e67)
+  ![Airfoil Sound Prediction 2](https://github.com/DSM2499/Portfolio/blob/main/Photos/airofil%20images%202.jpeg?raw=true)
 
 - **Approach:**
     In this project, I developed a robust predictive model for airfoil-generated sound levels utilizing Apache Spark and advanced machine learning techniques. The process began with the creation of a Spark session to efficiently manage data processing tasks. After acquiring the dataset, I loaded it into a Spark DataFrame and performed initial data cleaning, which included removing duplicate rows and addressing missing values.
@@ -264,14 +264,14 @@ These observations provide valuable insights for future iterations of the model,
 
     Dataset: [NASA Airfoil Noise Raw](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-BD0231EN-Coursera/datasets/NASA_airfoil_noise_raw.csv)
 
-  ![Dataset Description](https://private-user-images.githubusercontent.com/49876969/348444479-633b2fe6-87ab-48d7-89a0-bb4f9cab3ee9.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA4OTY0NjMsIm5iZiI6MTcyMDg5NjE2MywicGF0aCI6Ii80OTg3Njk2OS8zNDg0NDQ0NzktNjMzYjJmZTYtODdhYi00OGQ3LTg5YTAtYmI0ZjljYWIzZWU5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzEzVDE4NDI0M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTAxMjYwZTRlZmE2MGI5ZTNiMWVlOTYwZTRkOTYwM2ExMzVkOGE2Nzg0ZThlM2FlNjY4NTA0OWZhNDI0NzkyOTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.TiaULMbUV5HW9NlQRRJMItkGIymX7KkNhQUENdw3NFw)
+  ![Dataset Description](https://github.com/DSM2499/Portfolio/blob/main/Photos/airfoil%20dataset.png?raw=true)
   
 - **Code Repository:**
     [Airfoil Sound Prediction](https://github.com/DSM2499/Airfoil_sound_predictions)
 
 - **Model Results:**
 
-  ![Model Results](https://private-user-images.githubusercontent.com/49876969/348443921-5e673e4c-d2aa-4998-8558-30b233e56f6e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA4OTY0ODIsIm5iZiI6MTcyMDg5NjE4MiwicGF0aCI6Ii80OTg3Njk2OS8zNDg0NDM5MjEtNWU2NzNlNGMtZDJhYS00OTk4LTg1NTgtMzBiMjMzZTU2ZjZlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzEzVDE4NDMwMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWNkMzIyZjEyMTk1NTk2ZGFiMTlhOTBmNGFkM2NlZTc3NThiY2Y2ODkwMDg0NjNmMDA0NDNhZmI4YTAyMDkwYjImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.PwP6a_bz7dngUFbY4tTnCIzrYxinsnOwbc05LSyYYWc)
+  ![Model Results](https://github.com/DSM2499/Portfolio/blob/main/Photos/Airfoil%20results.png?raw=true)
 
 - **Inferences:**
   
