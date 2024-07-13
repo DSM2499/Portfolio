@@ -109,6 +109,19 @@ To further enhance the model's performance, two primary avenues for improvement 
   <p>Throughout the development process, I prioritized best practices in code formatting and documentation, ensuring clarity and maintainability of the codebase. The final step involved saving the trained pipeline model for future applications.</p>
   <p>This structured approach resulted in the creation of an efficient and scalable predictive model capable of providing valuable insights into airfoil noise levels. The model serves as a powerful tool for engineers and researchers, facilitating data-driven decision-making in airfoil design and noise reduction strategies.</p>
 
+- **Code Repository:** https://github.com/DSM2499/Airfoil_sound_predictions
+
 - **Model Results:**
   
   ![](https://private-user-images.githubusercontent.com/49876969/348443921-5e673e4c-d2aa-4998-8558-30b233e56f6e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA4Mzc2ODEsIm5iZiI6MTcyMDgzNzM4MSwicGF0aCI6Ii80OTg3Njk2OS8zNDg0NDM5MjEtNWU2NzNlNGMtZDJhYS00OTk4LTg1NTgtMzBiMjMzZTU2ZjZlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzEzVDAyMjMwMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWZiOGQxODgzYmM0ODU2OThiMjE4NmM5ODIyNTk5M2VjMDM2Mzk2ZjE4ZTU1ZmY1ZjI3OGQ3MzNlMjJjYzg2NzUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.7k07WNmFJvSpX_iRMNpcxrFJn1El55qGuJ2Iv7LoNWQ)
+
+- **Future Work:**
+
+Future work on this project presents several promising avenues for enhancement and expansion:
+
+<p>Model Sophistication: Incorporating more advanced machine learning techniques such as random forests, gradient boosting machines, or deep learning architectures could potentially yield improved prediction accuracy. These methods may capture complex relationships in the data that linear regression might miss.</p>
+<p>Data Enrichment: Expanding the dataset with more diverse and comprehensive airfoil data could enhance the model's ability to generalize across various designs and operating conditions. This could involve collecting data from a wider range of airfoil types and environmental scenarios.</p>
+<p>Real-time Analytics: Implementing a real-time data pipeline using Apache Kafka for streaming data and Spark Streaming for real-time analytics could enable continuous monitoring and prediction of noise levels. This would allow for more dynamic and responsive noise management strategies.</p>
+<p>Advanced Feature Engineering: Conducting a more in-depth feature engineering process could uncover additional relevant attributes from the raw data. This might involve deriving new features based on domain knowledge or using automated feature extraction techniques, potentially leading to improved model performance and new insights.</p>
+<p>User Interface Development: Integrating the predictive model into a web-based application with an intuitive interface would significantly enhance its accessibility and utility. This would allow engineers and researchers to easily interact with the model, facilitating its incorporation into their design and optimization processes.</p>
+<p>By pursuing these enhancements, the project could evolve into a more comprehensive and powerful tool for airfoil noise prediction and management. These advancements would not only improve the model's accuracy and applicability but also increase its value in real-world aerospace engineering scenarios.</p>
