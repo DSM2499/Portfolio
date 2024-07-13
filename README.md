@@ -113,6 +113,10 @@ To further enhance the model's performance, two primary avenues for improvement 
   <p>Throughout the development process, I prioritized best practices in code formatting and documentation, ensuring clarity and maintainability of the codebase. The final step involved saving the trained pipeline model for future applications.</p>
   <p>This structured approach resulted in the creation of an efficient and scalable predictive model capable of providing valuable insights into airfoil noise levels. The model serves as a powerful tool for engineers and researchers, facilitating data-driven decision-making in airfoil design and noise reduction strategies.</p>
 
+- **Dataset Description:**
+
+  ![](https://private-user-images.githubusercontent.com/49876969/348444479-633b2fe6-87ab-48d7-89a0-bb4f9cab3ee9.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA4Mzg0NzUsIm5iZiI6MTcyMDgzODE3NSwicGF0aCI6Ii80OTg3Njk2OS8zNDg0NDQ0NzktNjMzYjJmZTYtODdhYi00OGQ3LTg5YTAtYmI0ZjljYWIzZWU5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzEzVDAyMzYxNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTk2ZmY5MTcwYTI4ZDdjYjg1NmU4ZWQ2YTI3YWI2NzdhMDllZTdmMWYwZDIyZWY4ZjExYWY1OGVkMzE3OWQ5NDAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.pVMaMN_0ehKFIesbHIZI-24Jo5EG6HpdTgE9hhV7q60)
+  
 - **Code Repository:** https://github.com/DSM2499/Airfoil_sound_predictions
 
 - **Model Results:**
